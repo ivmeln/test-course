@@ -2,7 +2,7 @@
     if (typeof define === 'function' && define.amd) {
         define(['unitTestingTask'], factory);
     } else if (typeof exports === 'object') {
-        module.exports = factory(require('unitTestingTask'));
+        module.exports = factory(require('../unitTestingTask'));
     } else {
         factory(window.unitTestingTask);
     }

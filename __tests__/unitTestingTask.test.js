@@ -17,7 +17,7 @@ function mockCreateDateWithOffset(offsetMinutes) {
 }
 
 beforeEach(() => {
-  console.log(unitTestingTask.lang('en', mockedLanguage));
+  unitTestingTask.lang('en', mockedLanguage);
 });
 
 describe('leadingZeroes', () => {
